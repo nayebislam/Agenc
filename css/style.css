@@ -300,20 +300,24 @@ p {
     cursor: pointer;
 }
 
-#Work_part .container .child h3 {
+#Work_part .container .child .text h3 {
     font-size: 20px;
     font-weight: 700;
-    margin-top: 30px;
     color: var(--headingColor);
 }
 
-#Work_part .container .child p {
+
+
+#Work_part .container .child .text{
+    padding: 30px 42px;
+}
+
+#Work_part .container .child .text p {
     font-size: 16px;
     line-height: 26px;
     max-width: 340px;
     color: var(--peraColor);
-    margin: 0 auto;
-    padding: 10px 0 30px;
+    margin: 10px auto 0;
 }
 
 /* ==================================Work_part end=========================================== */
@@ -336,21 +340,14 @@ p {
     max-width: 802px;
 }
 
-#agence .container .main .child h3 {
+#agence .container .main .child .text h3 {
     font-size: 25px;
     font-weight: bold;
     margin: 20px 0 10px;
     color: var(--headingColor);
 }
 
-#agence .container .main .child p {
-    max-width: 344px;
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--peraColor);
-}
-
-#agence .container .main .child p {
+#agence .container .main .child .text p {
     max-width: 344px;
     font-size: 16px;
     line-height: 26px;
@@ -445,6 +442,10 @@ p {
     width: 20px;
     color: #F9BD2C;
     margin-bottom: 30px;
+}
+
+#Reviews_part .container .Reviews_slider .slide .user {
+    align-items: center;
 }
 
 #Reviews_part .container .Reviews_slider .slide .user img {

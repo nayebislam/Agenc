@@ -12,4 +12,14 @@ $('.Reviews_slider').slick({
     nextArrow: `<i class="fa-solid fa-angle-right rightArrow"></i>`,
     centerMode: true,
     centerPadding: '0',
+
+    responsive: [
+        {
+          breakpoint: 575.98,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
 });

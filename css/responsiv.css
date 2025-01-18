@@ -1,0 +1,239 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* -------------------------common css------------------------- */
+
+    .title h2 {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto 0;
+    }
+
+    /* -------------------------common css------------------------- */
+
+    #Banner_part {
+        padding: 208px 0 89px;
+    }
+
+    #Banner_part .container h1 {
+        font-size: 34px;
+        line-height: 105%;
+    }
+
+    #Banner_part .container p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .slick-dots {
+        bottom: 32px;
+    }
+
+    /* ==================================Success_part end========================================= */
+
+    #Success_part {
+        margin: 70px 0;
+        padding: 0 12px;
+    }
+
+    #Success_part .container .row {
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    #Success_part .container .row .left h3 {
+        font-size: 18px;
+    }
+
+    #Success_part .container .row .left h2 {
+        font-size: 25px;
+        margin-top: 3px;
+    }
+
+    #Success_part .container .row .right {
+        flex-direction: column;
+    }
+
+    #Success_part .container .row .right .child h2 {
+        font-size: 30px;
+    }
+
+    #Success_part .container .row .right .child p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0px;
+    }
+
+    #Success_part .container .row .right .child {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* ==================================Service_part Start======================================= */
+    #Service_part {
+        margin: 0px 0 60px;
+    }
+
+    #Service_part .row {
+        row-gap: 5px;
+    }
+
+    #Service_part .container .child {
+        padding: 60px 40px 45px;
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #Service_part .container .child h3 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    #Service_part .container .child p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    /* ==================================Work_part Start========================================= */
+
+    #Work_part {
+        padding: 60px 0px;
+    }
+
+    #Work_part .row {
+        margin-top: 40px;
+    }
+
+    #Work_part .container .child img {
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #Work_part .container .child {
+        border-radius: 10px;
+    }
+
+    #Work_part .container .child .text {
+        padding: 20px 30px;
+    }
+
+    #Work_part .container .child .text h3 {
+        font-size: 14px;
+    }
+
+    #Work_part .container .child .text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px auto 0;
+    }
+
+    /* ==================================agence_part end========================================= */
+
+    #agence {
+        padding: 60px 0;
+
+    }
+
+    #agence .main .row01 {
+        padding: 20px 0;
+        background: url(../images/agence03.jpg) no-repeat center / cover;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    #agence .main .row01::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(36, 36, 36, 0.8);
+        z-index: -1;
+    }
+
+    #agence .title {
+        margin-bottom: 50px;
+    }
+
+    #agence .container .main .parent .row {
+        row-gap: 20px;
+    }
+
+    #agence .container .main .child {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child {
+        flex-direction: row-reverse;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child .text {
+        text-align: right;
+    }
+
+    #agence .container .main .child .text h3 {
+        font-size: 16px;
+        color: #dbdbdb;
+        margin: 0;
+    }
+
+    #agence .container .main .child .text p {
+        font-size: 12px;
+        line-height: 17px;
+        color: #bfd0d4;
+    }
+
+    #agence .container .main .team {
+        display: none;
+    }
+
+    /* =================================Reviews_part start======================================= */
+
+    #Reviews_part {
+        padding-bottom: 60px;
+    }
+
+    #Reviews_part .container .title {
+        margin-bottom: 40px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide {
+        margin: 0 12px;
+        padding: 30px 20px;
+        border-radius: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 15px 0;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .icon i {
+        margin-bottom: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
