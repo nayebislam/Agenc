@@ -37,7 +37,7 @@
     /* ==================================Success_part end========================================= */
 
     #Success_part {
-        margin: 70px 0;
+        margin: 50px 0;
         padding: 0 12px;
     }
 
@@ -46,12 +46,16 @@
         border-radius: 10px;
     }
 
+    #Success_part .container .row .left {
+        text-align: center;
+    }
+
     #Success_part .container .row .left h3 {
         font-size: 18px;
     }
 
     #Success_part .container .row .left h2 {
-        font-size: 25px;
+        font-size: 16px;
         margin-top: 3px;
     }
 
@@ -79,26 +83,30 @@
         margin: 0px 0 60px;
     }
 
+    #Service_part .title p {
+        margin-bottom: 30px;
+    }
+
     #Service_part .row {
-        row-gap: 5px;
+        row-gap: 20px;
     }
 
     #Service_part .container .child {
-        padding: 60px 40px 45px;
+        padding: 40px 30px;
         border-radius: 10px;
-        margin-top: 30px;
+        margin-top: 0;
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
         box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
     }
 
     #Service_part .container .child h3 {
-        font-size: 24px;
-        margin-top: 30px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     #Service_part .container .child p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 22px;
     }
 
@@ -236,4 +244,71 @@
         line-height: 20px;
     }
 
+    #Reviews_part .container .Reviews_slider .rightArrow {
+        height: 30px;
+        width: 30px;
+        color: #000000;
+    }
+
+    #Reviews_part .container .Reviews_slider .leftArrow {
+        height: 30px;
+        width: 30px;
+        color: #000000;
+    }
+
+    /* =================================form_part start======================================== */
+
+    #form_part {
+        padding: 60px 0;
+    }
+
+    #form_part .text {
+        text-align: center;
+    }
+
+    #form_part .text h2 {
+        font-size: 20px;
+    }
+
+    #form_part .text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #form_part .text p:first-child {
+        margin: 10px 0 10px;
+    }
+
+    #form_part .text p:last-child {
+        margin-bottom: 30px;
+    }
+
+    #form_part form {
+        padding: 40px 30px;
+        border-radius: 10px;
+    }
+
+    #form_part form h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #form_part form label {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #form_part form input {
+        font-size: 13px;
+        line-height: 16px;
+        padding: 15PX 20PX;
+        margin: 10px 0 15px;
+    }
+
+    #form_part form button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 0px;
+        margin-top: 5px;
+    }
 }
