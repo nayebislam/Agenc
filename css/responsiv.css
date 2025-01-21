@@ -14,24 +14,90 @@
 
     /* -------------------------common css------------------------- */
 
+    /* ===================================Navbar_part start=========================================== */
+
+    .navbar-toggler {
+        border: 0;
+        outline: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: #6A4DF4;
+    }
+
+    .me-auto {
+        margin-right: 0 !important;
+    }
+
+    .navbar-collapse{
+        text-align: center;
+    }
+
+    .navbar-brand img{
+        height: 30px;
+    }
+
+    .navbar .nav-link {
+        padding: 0 !important;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+        transition: all linear .4s;
+    }
+
+    .navbar .nav-link.active {
+        color: #fff;
+        transform: scale(1);
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--primeryColor);
+        transform: scale(1);
+    }
+
+    .navbar-nav .customBtn {
+        padding: 10px 0;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ===================================Navbar_part start=========================================== */
+
     #Banner_part {
-        padding: 208px 0 89px;
+        padding: 80px 0 70px;
     }
 
     #Banner_part .container h1 {
-        font-size: 34px;
-        line-height: 105%;
+        font-size: 20px;
+        line-height: 22px;
     }
 
     #Banner_part .container p {
         font-size: 14px;
         line-height: 20px;
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #Banner_part .container button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: var(--primeryColor);
+        color: var(--white);
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        border: 0;
     }
 
     .slick-dots {
-        bottom: 32px;
+        bottom: 25px;
     }
 
     /* ==================================Success_part end========================================= */
@@ -80,7 +146,7 @@
 
     /* ==================================Service_part Start======================================= */
     #Service_part {
-        margin: 0px 0 60px;
+        margin: 60px 0;
     }
 
     #Service_part .title p {
@@ -92,7 +158,7 @@
     }
 
     #Service_part .container .child {
-        padding: 40px 30px;
+        padding: 30px 20px;
         border-radius: 10px;
         margin-top: 0;
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
@@ -100,14 +166,19 @@
         box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
     }
 
+    #Service_part .container .child img {
+        height: 60px;
+    }
+
     #Service_part .container .child h3 {
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 16px;
+        margin-top: 10px;
     }
 
     #Service_part .container .child p {
         font-size: 16px;
         line-height: 22px;
+        margin: 10px auto 0;
     }
 
     /* ==================================Work_part Start========================================= */
@@ -171,7 +242,7 @@
     }
 
     #agence .title {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     #agence .container .main .parent .row {
@@ -225,13 +296,13 @@
     }
 
     #Reviews_part .container .Reviews_slider .slide p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 22px;
-        margin: 15px 0;
+        margin: 10px 0;
     }
 
     #Reviews_part .container .Reviews_slider .slide .icon i {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     #Reviews_part .container .Reviews_slider .slide .user h4 {
@@ -259,7 +330,7 @@
     /* =================================form_part start======================================== */
 
     #form_part {
-        padding: 60px 0;
+        padding: 50px 0;
     }
 
     #form_part .text {
@@ -267,12 +338,12 @@
     }
 
     #form_part .text h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #form_part .text p {
         font-size: 12px;
-        line-height: 20px;
+        line-height: 16px;
     }
 
     #form_part .text p:first-child {
@@ -280,7 +351,7 @@
     }
 
     #form_part .text p:last-child {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     #form_part form {
@@ -311,4 +382,43 @@
         padding: 10px 0px;
         margin-top: 5px;
     }
+
+    /* ================================footer_part start======================================= */
+
+    #footer_part {
+        padding: 50px 0 0;
+    }
+
+    #footer_part .footer_right {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #footer_part .text img {
+        height: 30px;
+    }
+
+    #footer_part .text p {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+
+    #footer_part .footer_right h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #footer_part .footer_right li a {
+        font-size: 12px;
+        line-height: 0;
+    }
+
+    #footer_part .copy_part {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
 }
