@@ -391,8 +391,9 @@
 
     #footer_part .footer_right {
         flex-direction: row;
-        gap: 34px;
         flex-wrap: wrap;
+        gap: 0;
+        row-gap: 10px;
         justify-content: space-between !important;
     }
 
@@ -408,7 +409,11 @@
 
     #footer_part .footer_right h3 {
         font-size: 16px;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
+    }
+
+    #footer_part .footer_right ul{
+        width: 50%;
     }
 
     #footer_part .footer_right li a {
@@ -823,6 +828,7 @@
 
     #footer_part .footer_right {
         flex-direction: row;
+        justify-content: start !important;
         gap: 68px;
     }
 
@@ -850,6 +856,1322 @@
         font-size: 12px;
         line-height: 15px;
         padding: 10px 0;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* -------------------------common css------------------------- */
+
+    .title h2 {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 auto 0;
+    }
+
+    /* -------------------------common css------------------------- */
+
+    /* ===================================Navbar_part start=========================================== */
+
+    .navbar-toggler {
+        border: 0;
+        outline: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: #6A4DF4;
+    }
+
+    .me-auto {
+        margin-right: 0 !important;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar .nav-link {
+        padding: 0 !important;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+        transition: all linear .4s;
+    }
+
+    .navbar .nav-link.active {
+        color: #fff;
+        transform: scale(1);
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--primeryColor);
+        transform: scale(1);
+    }
+
+    .navbar-nav .customBtn {
+        padding: 10px 0;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ===================================Navbar_part start=========================================== */
+
+    #Banner_part {
+        padding: 100px 0 80px;
+    }
+
+    #Banner_part .container h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    #Banner_part .container p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #Banner_part .container button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: var(--primeryColor);
+        color: var(--white);
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        border: 0;
+    }
+
+    .slick-dots {
+        bottom: 25px;
+    }
+
+    /* ==================================Success_part end========================================= */
+
+    #Success_part {
+        margin: 50px 0;
+        padding: 0 12px;
+    }
+
+    #Success_part .container .row {
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    #Success_part .container .row .left {
+        text-align: left;
+    }
+
+    #Success_part .container .row .left h3 {
+        font-size: 18px;
+    }
+
+    #Success_part .container .row .left h2 {
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    #Success_part .container .row .right {
+        flex-direction: row;
+    }
+
+    #Success_part .container .row .right .child h2 {
+        font-size: 22px;
+    }
+
+    #Success_part .container .row .right .child p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0px;
+    }
+
+    #Success_part .container .row .right .child {
+        margin: 15px 0 10px;
+        text-align: center;
+    }
+
+    /* ==================================Service_part Start======================================= */
+    #Service_part {
+        margin: 60px 0;
+    }
+
+    #Service_part .title p {
+        margin-bottom: 30px;
+    }
+
+    #Service_part .row {
+        row-gap: 24px;
+    }
+
+    #Service_part .container .child {
+        padding: 30px 20px;
+        border-radius: 10px;
+        margin-top: 0;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #Service_part .container .child img {
+        height: 60px;
+    }
+
+    #Service_part .container .child h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #Service_part .container .child p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 10px auto 0;
+    }
+
+    /* ==================================Work_part Start========================================= */
+
+    #Work_part {
+        padding: 60px 0px;
+    }
+
+    #Work_part .row {
+        margin-top: 30px;
+    }
+
+    #Work_part .container .child img {
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #Work_part .container .child {
+        border-radius: 10px;
+    }
+
+    #Work_part .container .child .text {
+        padding: 20px 30px;
+    }
+
+    #Work_part .container .child .text h3 {
+        font-size: 14px;
+    }
+
+    #Work_part .container .child .text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px auto 0;
+    }
+
+    /* ==================================agence_part end========================================= */
+
+    #agence {
+        padding: 60px 0;
+
+    }
+
+    #agence .main .row01 {
+        padding: 20px 0;
+        background: url(../images/agence03.jpg) no-repeat top / cover;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    #agence .main .row01::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(36, 36, 36, 0.8);
+        z-index: -1;
+    }
+
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #agence .title {
+        margin-bottom: 20px;
+    }
+
+    #agence .container .main .parent .row {
+        row-gap: 20px;
+    }
+
+    #agence .container .main .child {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child {
+        flex-direction: row-reverse;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child .text {
+        text-align: right;
+    }
+
+    #agence .container .main .child .text h3 {
+        font-size: 16px;
+        color: #dbdbdb;
+        margin: 0;
+    }
+
+    #agence .container .main .child .text p {
+        font-size: 12px;
+        line-height: 17px;
+        color: #bfd0d4;
+    }
+
+    #agence .container .main .team {
+        display: none;
+    }
+
+    /* =================================Reviews_part start======================================= */
+
+    #Reviews_part {
+        padding-bottom: 60px;
+    }
+
+    #Reviews_part .container .title {
+        margin-bottom: 40px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide {
+        margin: 0 12px;
+        padding: 30px 20px;
+        border-radius: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide p {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 10px 0;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .icon i {
+        margin-bottom: 10px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #Reviews_part .container .Reviews_slider .rightArrow {
+        height: 30px;
+        width: 30px;
+        color: #000000;
+    }
+
+    #Reviews_part .container .Reviews_slider .leftArrow {
+        height: 30px;
+        width: 30px;
+        color: #000000;
+    }
+
+    /* =================================form_part start======================================== */
+
+    #form_part {
+        padding: 50px 0;
+    }
+
+    #form_part .text {
+        text-align: center;
+    }
+
+    #form_part .text h2 {
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    #form_part .text p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #form_part .text p:first-child {
+        margin: 5px auto;
+    }
+
+    #form_part .text p:last-child {
+        margin-bottom: 20px;
+    }
+
+    #form_part form {
+        padding: 40px 30px;
+        border-radius: 10px;
+    }
+
+    #form_part form h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #form_part form label {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #form_part form input {
+        font-size: 13px;
+        line-height: 16px;
+        padding: 15PX 20PX;
+        margin: 10px 0 15px;
+    }
+
+    #form_part form button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 0px;
+        margin-top: 5px;
+    }
+
+    /* ================================footer_part start======================================= */
+
+    #footer_part {
+        padding: 50px 0 0;
+    }
+
+    #footer_part .footer_right {
+        flex-direction: row;
+        justify-content: start !important;
+        gap: 131px;
+    }
+
+    #footer_part .text img {
+        height: 30px;
+    }
+
+    #footer_part .text p {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+
+    #footer_part .footer_right h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #footer_part .footer_right li a {
+        font-size: 12px;
+        line-height: 0;
+    }
+
+    #footer_part .copy_part {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* -------------------------common css------------------------- */
+
+    .title h2 {
+        font-size: 26px;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px auto 0;
+    }
+
+    /* -------------------------common css------------------------- */
+
+    /* ===================================Navbar_part start=========================================== */
+
+    .navbar-toggler {
+        border: 0;
+        outline: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: #6A4DF4;
+    }
+
+    .me-auto {
+        margin-right: 0 !important;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar .navbar-nav {
+        column-gap: 26px;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        padding: 0 !important;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+        transition: all linear .4s;
+    }
+
+    .navbar .nav-link.active {
+        color: var(--primeryColor);
+        transform: scale(1);
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--primeryColor);
+        transform: scale(1.1);
+    }
+
+    .navbar-nav .customBtn {
+        padding: 10px 35px;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ===================================Navbar_part start=========================================== */
+
+    #Banner_part {
+        padding: 100px 0 80px;
+    }
+
+    #Banner_part .container h1 {
+        font-size: 26px;
+        line-height: 27px;
+        max-width: 389px;
+    }
+
+    #Banner_part .container p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #Banner_part .container button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: var(--primeryColor);
+        color: var(--white);
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        border: 0;
+    }
+
+    .slick-dots {
+        bottom: 25px;
+    }
+
+    /* ==================================Success_part end========================================= */
+
+    #Success_part {
+        margin: 50px 0;
+        padding: 0 12px;
+    }
+
+    #Success_part .container .row {
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    #Success_part .container .row .left {
+        text-align: left;
+    }
+
+    #Success_part .container .row .left h3 {
+        font-size: 18px;
+    }
+
+    #Success_part .container .row .left h2 {
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    #Success_part .container .row .right {
+        flex-direction: row;
+    }
+
+    #Success_part .container .row .right .child h2 {
+        font-size: 22px;
+    }
+
+    #Success_part .container .row .right .child p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0px;
+    }
+
+    #Success_part .container .row .right .child {
+        margin: 15px 0 10px;
+        text-align: center;
+    }
+
+    /* ==================================Service_part Start======================================= */
+    #Service_part {
+        margin: 60px 0;
+    }
+
+    #Service_part .title p {
+        margin-bottom: 30px;
+    }
+
+    #Service_part .row {
+        row-gap: 24px;
+    }
+
+    #Service_part .container .child {
+        padding: 30px 20px;
+        border-radius: 10px;
+        margin-top: 0;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #Service_part .container .child img {
+        height: 70px;
+    }
+
+    #Service_part .container .child h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #Service_part .container .child p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 15px auto 0;
+    }
+
+    /* ==================================Work_part Start========================================= */
+
+    #Work_part {
+        padding: 60px 0px;
+    }
+
+    #Work_part .row {
+        margin-top: 30px;
+    }
+
+    #Work_part .container .child img {
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #Work_part .container .child {
+        border-radius: 10px;
+    }
+
+    #Work_part .container .child .text {
+        padding: 20px 30px;
+    }
+
+    #Work_part .container .child .text h3 {
+        font-size: 16px;
+    }
+
+    #Work_part .container .child .text p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 5px auto 0;
+    }
+
+    /* ==================================agence_part end========================================= */
+
+    #agence {
+        padding: 60px 0;
+
+    }
+
+    #agence .main .row01 {
+        padding: 0;
+        background: url(../images/agence03.jpg) no-repeat top / cover none;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    #agence .main .row01::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: rgba(36, 36, 36, 0.8);
+        z-index: -1;
+    }
+
+    .row {
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+
+    #agence .title {
+        margin-bottom: 40px;
+    }
+
+    #agence .container .main .parent .row {
+        row-gap: 50px;
+    }
+
+    #agence .container .main .child {
+        display: inline-block;
+        align-items: center;
+        gap: 0;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child {
+        flex-direction: row;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child .text {
+        text-align: left;
+    }
+
+    #agence .container .main .child .text h3 {
+        font-size: 16px;
+        color: var(--headingColor);
+        margin: 10px 0 5px;
+    }
+
+    #agence .container .main .child .text p {
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--peraColor);
+    }
+
+    #agence .container .main .team {
+        display: inline-block;
+    }
+
+    /* =================================Reviews_part start======================================= */
+
+    #Reviews_part {
+        padding-bottom: 60px;
+    }
+
+    #Reviews_part .container .title {
+        margin-bottom: 40px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide {
+        margin: 0 12px;
+        padding: 40px 30px;
+        border-radius: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px 0;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .icon i {
+        margin-bottom: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user img {
+        margin-right: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #Reviews_part .container .Reviews_slider .rightArrow {
+        height: 40px;
+        width: 40px;
+        color: #000000;
+    }
+
+    #Reviews_part .container .Reviews_slider .leftArrow {
+        height: 40px;
+        width: 40px;
+        color: #000000;
+    }
+
+    /* =================================form_part start======================================== */
+
+    #form_part {
+        padding: 50px 0;
+    }
+
+    #form_part .text {
+        text-align: center;
+    }
+
+    #form_part .text h2 {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    #form_part .text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #form_part .text p:first-child {
+        margin: 5px auto;
+    }
+
+    #form_part .text p:last-child {
+        margin-bottom: 0;
+    }
+
+    #form_part form {
+        padding: 40px 35px 50px;
+        border-radius: 15px;
+    }
+
+    #form_part form h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #form_part form label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #form_part form input {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 15PX 20PX;
+        margin: 10px 0 15px;
+    }
+
+    #form_part form button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 15px 0px;
+        margin-top: 5px;
+    }
+
+    /* ================================footer_part start======================================= */
+
+    #footer_part {
+        padding: 50px 0 0;
+    }
+
+    #footer_part .footer_right {
+        flex-direction: row;
+        justify-content: flex-end !important;
+        gap: 80px;
+    }
+
+    #footer_part .text img {
+        height: 40px;
+    }
+
+    #footer_part .text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 10px 0 0;
+    }
+
+    #footer_part .footer_right h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #footer_part .footer_right li a {
+        font-size: 13px;
+        line-height: 2;
+    }
+
+    #footer_part .copy_part {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* -------------------------common css------------------------- */
+
+    .title h2 {
+        font-size: 26px;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 10px auto 0;
+    }
+
+    /* -------------------------common css------------------------- */
+
+    /* ===================================Navbar_part start=========================================== */
+
+    .navbar-toggler {
+        border: 0;
+        outline: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: #6A4DF4;
+    }
+
+    .me-auto {
+        margin-right: 0 !important;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar .navbar-nav {
+        column-gap: 26px;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        padding: 0 !important;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+        transition: all linear .4s;
+    }
+
+    .navbar .nav-link.active {
+        color: var(--primeryColor);
+        transform: scale(1);
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--primeryColor);
+        transform: scale(1.1);
+    }
+
+    .navbar-nav .customBtn {
+        padding: 10px 35px;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ===================================Navbar_part start=========================================== */
+
+    #Banner_part {
+        padding: 100px 0 80px;
+    }
+
+    #Banner_part .container h1 {
+        font-size: 26px;
+        line-height: 27px;
+        max-width: 389px;
+    }
+
+    #Banner_part .container p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #Banner_part .container button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: var(--primeryColor);
+        color: var(--white);
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        border: 0;
+    }
+
+    .slick-dots {
+        bottom: 25px;
+    }
+
+    /* ==================================Success_part end========================================= */
+
+    #Success_part {
+        margin: 50px 0;
+        padding: 0 12px;
+    }
+
+    #Success_part .container .row {
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    #Success_part .container .row .left {
+        text-align: left;
+    }
+
+    #Success_part .container .row .left h3 {
+        font-size: 18px;
+    }
+
+    #Success_part .container .row .left h2 {
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    #Success_part .container .row .right {
+        flex-direction: row;
+    }
+
+    #Success_part .container .row .right .child h2 {
+        font-size: 22px;
+    }
+
+    #Success_part .container .row .right .child p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0px;
+    }
+
+    #Success_part .container .row .right .child {
+        margin: 15px 0 10px;
+        text-align: center;
+    }
+
+    /* ==================================Service_part Start======================================= */
+    #Service_part {
+        margin: 60px 0;
+    }
+
+    #Service_part .title p {
+        margin-bottom: 30px;
+    }
+
+    #Service_part .row {
+        row-gap: 24px;
+    }
+
+    #Service_part .container .child {
+        padding: 30px 20px;
+        border-radius: 10px;
+        margin-top: 0;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #Service_part .container .child img {
+        height: 70px;
+    }
+
+    #Service_part .container .child h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #Service_part .container .child p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 15px auto 0;
+    }
+
+    /* ==================================Work_part Start========================================= */
+
+    #Work_part {
+        padding: 60px 0px;
+    }
+
+    #Work_part .row {
+        margin-top: 30px;
+    }
+
+    #Work_part .container .child img {
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #Work_part .container .child {
+        border-radius: 10px;
+    }
+
+    #Work_part .container .child .text {
+        padding: 20px 30px;
+    }
+
+    #Work_part .container .child .text h3 {
+        font-size: 16px;
+    }
+
+    #Work_part .container .child .text p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 5px auto 0;
+    }
+
+    /* ==================================agence_part end========================================= */
+
+    #agence {
+        padding: 60px 0;
+
+    }
+
+    #agence .main .row01 {
+        padding: 0;
+        background: url(../images/agence03.jpg) no-repeat top / cover none;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    #agence .main .row01::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: rgba(36, 36, 36, 0.8);
+        z-index: -1;
+    }
+
+    .row {
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+
+    #agence .title {
+        margin-bottom: 40px;
+    }
+
+    #agence .container .main .parent .row {
+        row-gap: 50px;
+    }
+
+    #agence .container .main .child {
+        display: inline-block;
+        align-items: center;
+        gap: 0;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child {
+        flex-direction: row;
+    }
+
+    #agence .container .main .parent .col-lg-6:nth-child(even) .child .text {
+        text-align: left;
+    }
+
+    #agence .container .main .child .text h3 {
+        font-size: 16px;
+        color: var(--headingColor);
+        margin: 10px 0 5px;
+    }
+
+    #agence .container .main .child .text p {
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--peraColor);
+    }
+
+    #agence .container .main .team {
+        display: inline-block;
+    }
+
+    /* =================================Reviews_part start======================================= */
+
+    #Reviews_part {
+        padding-bottom: 60px;
+    }
+
+    #Reviews_part .container .title {
+        margin-bottom: 40px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide {
+        margin: 0 12px;
+        padding: 40px 30px;
+        border-radius: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px 0;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .icon i {
+        margin-bottom: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user img {
+        margin-right: 15px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #Reviews_part .container .Reviews_slider .slide .user p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #Reviews_part .container .Reviews_slider .rightArrow {
+        height: 40px;
+        width: 40px;
+        color: #000000;
+    }
+
+    #Reviews_part .container .Reviews_slider .leftArrow {
+        height: 40px;
+        width: 40px;
+        color: #000000;
+    }
+
+    /* =================================form_part start======================================== */
+
+    #form_part {
+        padding: 50px 0;
+    }
+
+    #form_part .text {
+        text-align: center;
+    }
+
+    #form_part .text h2 {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    #form_part .text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #form_part .text p:first-child {
+        margin: 5px auto;
+    }
+
+    #form_part .text p:last-child {
+        margin-bottom: 0;
+    }
+
+    #form_part form {
+        padding: 40px 35px 50px;
+        border-radius: 15px;
+    }
+
+    #form_part form h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #form_part form label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #form_part form input {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 15PX 20PX;
+        margin: 10px 0 15px;
+    }
+
+    #form_part form button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 15px 0px;
+        margin-top: 5px;
+    }
+
+    /* ================================footer_part start======================================= */
+
+    #footer_part {
+        padding: 50px 0 0;
+    }
+
+    #footer_part .footer_right {
+        flex-direction: row;
+        justify-content: flex-end !important;
+        gap: 80px;
+    }
+
+    #footer_part .text img {
+        height: 40px;
+    }
+
+    #footer_part .text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 10px 0 0;
+    }
+
+    #footer_part .footer_right h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #footer_part .footer_right li a {
+        font-size: 13px;
+        line-height: 2;
+    }
+
+    #footer_part .copy_part {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 15px 0;
         margin-top: 20px;
     }
 
