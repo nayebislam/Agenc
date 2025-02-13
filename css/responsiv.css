@@ -412,7 +412,7 @@
         margin-bottom: 5px;
     }
 
-    #footer_part .footer_right ul{
+    #footer_part .footer_right ul {
         width: 50%;
     }
 
@@ -858,7 +858,7 @@
         padding: 10px 0;
         margin-top: 20px;
     }
-    
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1780,7 +1780,7 @@
     }
 
     .navbar .navbar-nav {
-        column-gap: 26px;
+        column-gap: 67px;
         align-items: center;
     }
 
@@ -1966,6 +1966,7 @@
 
     #agence .main .row01 {
         padding: 0;
+        align-items: center;
         background: url(../images/agence03.jpg) no-repeat top / cover none;
         border-radius: 10px;
         overflow: hidden;

@@ -79,7 +79,7 @@ p {
 }
 
 .navbar .navbar-nav {
-    column-gap: 26px;
+    column-gap: 67px;
 }
 
 .navbar .nav-link {
@@ -308,7 +308,7 @@ p {
 
 
 
-#Work_part .container .child .text{
+#Work_part .container .child .text {
     padding: 30px 42px;
 }
 
@@ -485,18 +485,18 @@ p {
     color: var(--headingColor);
 }
 
-#form_part .text p:first-child{
+#form_part .text p:first-child {
     margin: 20px 0 11px;
     max-width: 514px;
 }
 
-#form_part .text p{
+#form_part .text p {
     font-size: 16px;
     line-height: 26px;
     color: var(--peraColor);
 }
 
-#form_part form{
+#form_part form {
     padding: 38px 43px 83px;
     border-radius: 20px;
     display: flex;
@@ -504,7 +504,7 @@ p {
     background: var(--white);
 }
 
-#form_part form h3{
+#form_part form h3 {
     font-size: 30px;
     font-weight: 700;
     color: var(--headingColor);
@@ -512,14 +512,14 @@ p {
     text-align: center;
 }
 
-#form_part form label{
+#form_part form label {
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
     color: var(--headingColor);
 }
 
-#form_part form input{
+#form_part form input {
     font-size: 16px;
     line-height: 26px;
     color: #000000;
@@ -529,11 +529,11 @@ p {
     border-radius: 10PX;
 }
 
-#form_part form input::placeholder{
+#form_part form input::placeholder {
     color: #D0D0D0;
 }
 
-#form_part form button{
+#form_part form button {
     padding: 19px 0;
     margin-top: 10px;
 }
@@ -541,11 +541,11 @@ p {
 /* ===================================form_part end======================================== */
 
 /* ================================footer_part start======================================= */
-#footer_part{
+#footer_part {
     padding: 146px 0 0;
 }
 
-#footer_part .text p{
+#footer_part .text p {
     font-size: 16px;
     line-height: 26px;
     max-width: 356px;
@@ -553,24 +553,24 @@ p {
     margin-top: 30px;
 }
 
-#footer_part .footer_right{
+#footer_part .footer_right {
     gap: 131px;
 }
 
-#footer_part .footer_right h3{
+#footer_part .footer_right h3 {
     font-size: 20px;
     font-weight: 600;
     color: var(--headingColor);
     margin-bottom: 40px;
 }
 
-#footer_part .footer_right li a{
+#footer_part .footer_right li a {
     font-size: 16px;
     line-height: 40px;
     color: #7B7B7B;
 }
 
-#footer_part .copy_part{
+#footer_part .copy_part {
     font-size: 16px;
     line-height: 26px;
     color: #D0D0D0;
@@ -579,4 +579,5 @@ p {
     margin-top: 50px;
     text-align: center;
 }
+
 /* =================================footer_part end======================================= */
